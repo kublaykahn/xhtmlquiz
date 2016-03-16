@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XHTML</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+
+  $(document).ready(function(){
+
+    var xhtml = prompt("Do you want to pass this class?")
+    if(xhtml === "yes"){
+      $("body").html("You can pass this class if you listen to Erin");
+    } else{
+      $("body").html("Erin would not be happy");
+    }
+    console.log(xhtml);
+
+    var grades = prompt("Do you want an A?")
+    if(grades === "yes"){
+      $("body").html("Why not an A+?");
+    } else{
+      $("body").html("Ok this class is tough.");
+    }
+    console.log(grades);
+
+    var pass = prompt("Are you working on your codeacademy?")
+    if (pass === "yes"){
+      $("body").html("Awesome.");
+    } else{
+      $("body").html("Well you can always take this class next year!")
+    }
+    console.log(pass);
+
+  });
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
